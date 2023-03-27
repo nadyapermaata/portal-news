@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Responsive dengan Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-light navbar-light">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">
+        <img src="gambar/logoo.png" alt="logo" style="width:200px;">
+    </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Olahraga</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Hiburan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Lainnya</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron text-center">
+    <h1>Temukan Berita Terbaru disini!</h1>
+    <p>Anda dijamin selalu update dengan berita-berita terkini yang ada</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="thumbnail">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Lainnya</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Sri Mulyani Minta Petugas Bea Cukai Tak Asal Acak-acak Koper Orang</li>
+                    </ol>
+                </nav>
+                <img src="gambar/artikel1-1.jpeg" width="100%" alt="Cinque Terre">
+                <div class="caption">
+
+                    <p>Jakarta, CNN Indonesia -- Menteri Keuangan (Menkeu) Sri Mulyani meminta petugas bea cukai tak sembarangan mengacak-acak koper penumpang dari luar negeri.</p>
+                    <p>Ia mengingatkan petugas bea dan cukai untuk terus meningkatkan pelayanan. Salah satunya dengan menggunakan manajemen risiko (risk management) yang tepat.</p>
+                    <p>"Jangan sampai semua orang kemudian diadul-adul barang yang membuat marah. Harus ada risk management, dioptimalkan dari sisi profiling-nya dan juga terus dilakukan monitoring agar pelayanan bagus," ujar Sri Mulyani dalam Rapat Kerja bersama Komisi XI di Gedung DPR, Senin (27/3).</p>
+                    <p>Indonesia, sambung Sri Mulyani, saat ini menerapkan batasan harga maksimal US$500 untuk barang bawang dari luar negeri yang bebas pajak, selama itu untuk kepentingan pribadi.</p>
+                    <hr>
+                </div>
+                <div class="comment">
+                    <label><h2>Leave a coment</h2></label>
+                    <div class="form-group">
+                        <label>Name:</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input type="email" class="form-control" id="pwd">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-info" value="Kirim Komentar">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="caption">
+                        <h4>Artikel 1</h4>
+                        <div class="row">
+                            <div class="col-xl-3">
+                                <img src="gambar/artikel1.jpeg" width="100%" alt="Cinque Terre">
+                            </div>
+                            <div class="col-sm-9">
+                                <p>Sri Mulyani Minta Petugas Bea Cukai Tak Asal Acak-acak Koper Orang</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="caption">
+                        <h4>Artikel 2</h4>
+                        <div class="row">
+                            <div class="col-xl-3">
+                                <img src="gambar/artikel2.jpg" width="100%" alt="Cinque Terre">
+                            </div>
+                            <div class="col-sm-9">
+                                <p>Jurnalis Italia Di Marzio: Indonesia Bisa Dihukum FIFA Beberapa Tahun</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="caption">
+                        <h4>Artikel 3</h4>
+                        <div class="row">
+                            <div class="col-xl-3">
+                                <img src="gambar/artikel3.jpg" width="100%" alt="Cinque Terre">
+                            </div>
+                            <div class="col-sm-9">
+                                <p>Red Velvet Akan Gelar Konser R to V di Indonesia Mei 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="caption">
+                        <h4>Artikel 4</h4>
+                        <div class="row">
+                            <div class="col-xl-3">
+                                <img src="gambar/artikel4.png" width="100%"alt="Cinque Terre">
+                            </div>
+                            <div class="col-sm-9">
+                                <p>Hyundai Mobile Charging untuk Situasi Darurat Disiapkan di Medan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="gambar/iklan.png" width="100%"alt="Cinque Terre">
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</div>
+<div id="contact" style="background-color: black; padding: 30px 0">
+    <div class="container">
+        <div class="row gy-5">
+            <div class="col-xl-3 col-md-6">
+                <img src="gambar/logoo.png" alt="Logo" width="150" height="40" class="mb-5 img-fluid">
+                <h5 class="py-3 text-light">Mobile Version</h5>
+                <img src="gambar/play-store.png" alt="Logo" width="116" height="35" class="img-fluid">
+                <img src="gambar/app-store.png" alt="Logo" width="116" height="35" class="img-fluid">
+            </div>
+            <div class="col-xl-2 offset-xl-1 col-md-6">
+                <h5 class="text-light mb-3">Privacy Policy</h5>
+                <ul style="list-style-type: none" class="px-0 text-white-50">
+                    <li class="mb-2">Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                </ul>
+            </div>
+            <div class="col-xl-2 offset-xl-1 col-md-6">
+                <h5 class="text-light mb-3">Follow Us</h5>
+                <ul style="list-style-type: none" class="px-0 text-white-50">
+                    <li class="mb-2">Twitter</li>
+                    <li class="mb-2">Instagram</li>
+                    <li class="mb-2">TikTok</li>
+                    <li class="mb-2">YouTube</li>
+                </ul>
+            </div>
+            <div class="col-xl-2 offset-xl-1 col-md-6">
+                <h5 class="text-light mb-3">Contact Us</h5>
+                <ul style="list-style-type: none" class="px-0 text-white-50">
+                    <li class="mb-2">Email</li>
+                    <li class="mb-2">Line</li>
+                    <li class="mb-2">WhatsApp</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer py-2" style="background-color: rgb(29, 29, 29);">
+    <h6 class="text-white-50 text-center">© 2023 Portal Beritas Nadya</h6>
+</div>
+</body>
+</html>
